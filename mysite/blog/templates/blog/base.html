@@ -51,10 +51,34 @@
     </nav>
 
 
-    {# The actual blog posts#}
+      {# The actual blog posts#}
           <div class="content container">
               <div class="row">
-                  <div class="col-md-8">
+                <div class ="col-md-4">
+                  <h2>About Me</h2>
+                  <h5>Photo of me:</h5>
+                  <img src="C:\Users\Ashwattha\Pictures\2020-01\IMG_0430" alt="Profile Picture">
+                  <p>Hello and welcome to my Football Blog! I have been a lover of this wonderful sport for about 6 years now.
+                    I am student at VIT Pune studying E&TC engineering .I thought of this as an amazing idea for my Software Developement Project.</p>
+                  <p>   This website is just an experiment, so do leave feedback! </p>
+                  <h3>Some Links</h3>
+                    <p>Making these links work is my target a I keep writing and coding! </p>
+                      <ul class="nav nav-pills flex-column">
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">UEFA Champions League</a>
+                       </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="#">Premier League</a>
+                       </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="#">La Liga</a>
+                       </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="#">Serie A</a>
+                       </li>
+                     </ul>
+                </div>
+                <div class="col-md-8">
                     <div class="blog_posts">
                       {% block content %}
                       {% endblock %}
